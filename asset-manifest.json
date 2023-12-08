@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/react-gh-pages/static/css/main.59bc59d3.css",
-    "main.js": "/react-gh-pages/static/js/main.92c349a1.js",
-    "static/js/787.82cdd233.chunk.js": "/react-gh-pages/static/js/787.82cdd233.chunk.js",
-    "static/media/main.jpg": "/react-gh-pages/static/media/main.7b3f5161fa7e78a66604.jpg",
-    "index.html": "/react-gh-pages/index.html",
-    "main.59bc59d3.css.map": "/react-gh-pages/static/css/main.59bc59d3.css.map",
-    "main.92c349a1.js.map": "/react-gh-pages/static/js/main.92c349a1.js.map",
-    "787.82cdd233.chunk.js.map": "/react-gh-pages/static/js/787.82cdd233.chunk.js.map"
+    "main.css": "/PongDang/static/css/main.1a435a95.css",
+    "main.js": "/PongDang/static/js/main.b5ed1d4f.js",
+    "static/js/787.82cdd233.chunk.js": "/PongDang/static/js/787.82cdd233.chunk.js",
+    "static/media/main.jpg": "/PongDang/static/media/main.7b3f5161fa7e78a66604.jpg",
+    "index.html": "/PongDang/index.html",
+    "main.1a435a95.css.map": "/PongDang/static/css/main.1a435a95.css.map",
+    "main.b5ed1d4f.js.map": "/PongDang/static/js/main.b5ed1d4f.js.map",
+    "787.82cdd233.chunk.js.map": "/PongDang/static/js/787.82cdd233.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.59bc59d3.css",
-    "static/js/main.92c349a1.js"
+    "static/css/main.1a435a95.css",
+    "static/js/main.b5ed1d4f.js"
   ]
 }
