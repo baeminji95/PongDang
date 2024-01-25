@@ -98,7 +98,7 @@ export default function SearchBar() {
   }
 
   const [wh, setWh] = useState();
-  const [forecast, setForecasth] = useState();
+  const [forecast, setForecast] = useState();
   const [wt, setWt] = useState();
   const [temperatures, setTemperatures] = useState();
   const [vilageFcst, setVilageFcst] = useState();
@@ -209,7 +209,7 @@ export default function SearchBar() {
     setLoading(true);
     setWh(null);
     setWt(null);
-    setForecasth(null);
+    setForecast(null);
     setTemperatures(null);
     setChartInfo(null);
 
@@ -297,7 +297,7 @@ export default function SearchBar() {
       const res5 = await fetch(vilageFcstUrl, {});
 
       setWh(await res1.json());
-      setForecasth(await res2.json());
+      setForecast(await res2.json());
       setWt(await res3.json());
       setTemperatures(await res4.json());
       setVilageFcst(await res5.json());
@@ -658,11 +658,18 @@ export default function SearchBar() {
                     맑음
                   </span>
                 </p>
-              ) : (
-                <p className="text-[4.5rem] relative">
+              ) : forecast.response.body.items.item[8].fcstValue === "1" || "2" ? (
+                <p className="text-[4.5rem] relative xl:text-[8rem]">
                   🌧
                   <span className="absolute top-2 left-0 text-white text-[1rem] font-bold">
                     비
+                  </span>
+                </p>
+              ) : (
+                <p className="text-[4.5rem] relative xl:text-[8rem]">
+                  🌨️
+                  <span className="absolute top-2 left-0 text-white text-[1rem] font-bold">
+                    눈
                   </span>
                 </p>
               )}
