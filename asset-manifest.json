@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/PongDang/static/css/main.ca38e201.css",
-    "main.js": "/PongDang/static/js/main.71b90df0.js",
+    "main.js": "/PongDang/static/js/main.f3cfe4e5.js",
     "static/js/787.82cdd233.chunk.js": "/PongDang/static/js/787.82cdd233.chunk.js",
     "static/media/main.jpg": "/PongDang/static/media/main.7b3f5161fa7e78a66604.jpg",
     "index.html": "/PongDang/index.html",
     "main.ca38e201.css.map": "/PongDang/static/css/main.ca38e201.css.map",
-    "main.71b90df0.js.map": "/PongDang/static/js/main.71b90df0.js.map",
+    "main.f3cfe4e5.js.map": "/PongDang/static/js/main.f3cfe4e5.js.map",
     "787.82cdd233.chunk.js.map": "/PongDang/static/js/787.82cdd233.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ca38e201.css",
-    "static/js/main.71b90df0.js"
+    "static/js/main.f3cfe4e5.js"
   ]
 }
